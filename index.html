@@ -2,36 +2,183 @@
 <html>
 <head>
 	<title>Karan Singh Pokhariya</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=.1.0, minimum-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<!--icons-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--theme-->
 	<link rel="stylesheet" type="text/css" href="default.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 
 	<section class="s1">
 		<div class="main-container">
-			<h1>Hi, I'm Karan Singh Pokhariya</h1>
-			<p>This is a sentence</p>
-			<a href="#">Link</a>
+			<div class="greeting-wrapper">
+				<h1>Hi, I'm Karan Singh Pokhariya</h1>
+			</div>
+
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+					<div class="dots-wrapper">
+						<div id="dot-1" class="browser-dot"></div>
+						<div id="dot-2" class="browser-dot"></div>
+						<div id="dot-3" class="browser-dot"></div>
+					</div>
+
+					<ul id="navigation">
+						<li><a id="scroll" href="#contact-form">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="left-column">
+					<img id="profile_pic" src="images/profile.jpg">
+					<h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
+
+					<div class="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+					<p id="settings-note">*Theme settings will be saved for<br>your next visit</p	>
+				</div>
+
+				<div class="right-column">
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+
+							<h3>What I Do</h3>
+							<p>I am a final year student, pursuing my bachelor's in Software Engineering from SRMIST, Chennai</p>
+
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 	</section>
 
 	<section class="s2">
 		<div class="main-container">
-			About
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>More about me</h4>
+
+					<p>Grounded and solution oriented Software Developer with a good variety of professional experiences. I enjoy taking complex problems and turning them into simpler ones.</p>
+
+					<p>When I am not around my laptop, you will find me playing basketball, reading, gaming or traveling.</p>
+
+					<hr>
+
+					<h4>TOP EXPERTISE</h4>
+
+					<p>Software Developer with primary focus on Machine Learning + Deep Learning: <a target="_blank" href="Resume.pdf">Download Resume</a></p>
+					
+					<div id="skills">
+						<ul>
+							<li>Python</li>
+							<li>C++</li>
+							<li>C</li>
+							<li>HTML/CSS</li>
+							<li>PHP</li>
+						</ul>
+
+						<ul>
+							<li>JavaScript</li>
+							<li>MySQL</li>
+							<li>Git</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="social-links">
+					<img id="social_img" src="images/follow.jpg">
+					<h3>Find me on LinkedIn and GitHub</h3>
+
+					<a target="_blank" href="https://www.linkedin.com/in/karan-singh-pokhariya/"><i class="fa fa-linkedin fa-lg"></i> @Karan Singh Pokhariya</a>
+					<br>
+					<a target="_blank" href="https://github.com/KaranPokhariya"><i class="fa fa-github fa-lg"></i> @KaranPokhariya</a>
+					<br>
+
+					<h3>Mail me</h3>
+					<a href="#"><i class="fa fa-envelope"></i> @karanpokhariya10@gmail.com</a>
+				</div>
+			</div>
 		</div>
 	</section>
 
 	<section class="s1">
 		<div class="main-container">
-			Portfolio
+			<h3 style="text-align: center;">Some of my projects</h3>
+			<div class="post-wrapper">
+
+				
+				<div class="post">
+					<img class="thumbnail" src="images/cancer.jpeg">
+					<div class="post-preview">
+						<h6 class="post-title">Lung Cancer Prediction System</h6>
+						<p class="post-intro">This is an on-going project where my motive to infer a method which can tect lung cancer in a computed tomography (CT) using Artificial Neural Network.<br><br>This is an on-going project. I will keep you updated with the progress.</p>
+						<!--a href="#">Read More</a-->
+					</div>
+				</div>
+			
+				<div class="post">
+					<img class="thumbnail" src="images/connect.png">
+					<div class="post-preview">
+						<h6 class="post-title ">Connect - Social Networking Web Application</h6>
+						<p class="post-intro">This is a dynamic social networking application to connect and build social relationships with friends, family, or colleagues. This gives you an opportunity to make new friends and stay connected with the old ones in this quarantine.</p>
+						<a target="_blank" href="https://github.com/KaranPokhariya/Connect">Project link</a>
+					</div>
+				</div>
+
+				<div class="post">
+					<img class="thumbnail" src="images/ttt.png">
+					<div class="post-preview">
+						<h6 class="post-title">Tic-Tac-Toe</h6>
+						<p class="post-intro">This project brings back the good old childhood memories when we did not bother to turn the last pages of our notebooks' to our gaming arena. Keeping up with the pace of technology, this is a simple tic-tac-toe game built using Python.</p>
+						<a href="#">Project Link</a>
+					</div>
+				</div>
+
+			</div>
 		</div>
 	</section>
 
 	<section class="s2">
 		<div class="main-container">
-			Contact
+			<h3 style="text-align: center;">Get In Touch</h3>
+			<p style="text-align: center; margin: 0;">Have a sweet project in mind or just want to say hi?<br>Feel free to send me a message!</p>
+
+			<form id="contact-form">
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+
 		</div>
+
 	</section>
+
+	<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
