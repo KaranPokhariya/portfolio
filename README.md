@@ -1,5 +1,5 @@
 # Portfolio
-Simple but catchy static portfolio website which you can use to demonstrate the competencies you would list on a resume or talk about in an interview. This can help you stand out from the ground and showcase your work to potential employers.
+Simple but catchy static portfolio website which you can use to demonstrate the competencies you would list on a resume or talk about in an interview. This can help you stand out and showcase your work to potential employers.
 
 # Scope
 ## Features:
